@@ -1,0 +1,21 @@
+echo "# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]UILD/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+sysinfo.txt
+*.apk
+*.aab
+*.crdownload
+*.pyc
+*.meta
+*.DS_Store
+" > .gitignore

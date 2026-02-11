@@ -110,7 +110,6 @@ public class RobloxStyleController : MonoBehaviour
             animator.SetBool("isGrounded", true);
             velocity.y = -2f;
 
-            // Проверяем либо клавишу, либо флаг от кнопки UI
             if (Input.GetButtonDown("Jump") || jumpRequested)
             {
                 velocity.y = jumpForce;
@@ -123,7 +122,6 @@ public class RobloxStyleController : MonoBehaviour
             animator.SetBool("isGrounded", false);
     }
 
-    // Этот метод вызывается кнопкой UI
     public void Jump()
     {
         jumpRequested = true;

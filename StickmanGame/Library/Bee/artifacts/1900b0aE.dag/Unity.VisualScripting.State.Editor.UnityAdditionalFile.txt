@@ -1,1 +1,1 @@
-C:\MyUnityGames\Repository\StickmanGame
+C:\MyUnityGames\Repository\StickGameGit\StickmanGame

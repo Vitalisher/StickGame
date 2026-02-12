@@ -578,6 +578,12 @@
 "Assets/PluginYourGames/Scripts/Utils/LocalStorage_yg.cs"
 "Assets/saves.cs"
 "Assets/Ui/OpenClosePanel.cs"
+"Assets/Virus/SyringeGun.cs"
+"Assets/Virus/SyringeProjectile.cs"
+"Assets/Virus/TestSubject.cs"
+"Assets/Virus/Virus.cs"
+"Assets/Virus/VirusStation.cs"
+"Assets/Virus/ZombieVirus.cs"
 -langversion:9.0
 /deterministic
 /optimize+

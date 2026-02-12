@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04c3e326fe47074591756b74fef1d65, type: 3}
+  m_Name: ZombieVirus
+  m_EditorClassIdentifier: 
+  virusName: Zomba
+  virusColor: {r: 0, g: 1, b: 0, a: 1}
+  infectedPrefab: {fileID: 208144226589678914, guid: 5c48b4d154320984a94fcc523a92e004, type: 3}
+  infectionDuration: 10

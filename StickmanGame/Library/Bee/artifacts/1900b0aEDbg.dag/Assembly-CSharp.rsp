@@ -357,6 +357,7 @@
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Settings.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
@@ -577,6 +578,12 @@
 "Assets/PluginYourGames/Scripts/Utils/LocalStorage_yg.cs"
 "Assets/saves.cs"
 "Assets/Ui/OpenClosePanel.cs"
+"Assets/Virus/SyringeGun.cs"
+"Assets/Virus/SyringeProjectile.cs"
+"Assets/Virus/TestSubject.cs"
+"Assets/Virus/Virus.cs"
+"Assets/Virus/VirusStation.cs"
+"Assets/Virus/ZombieVirus.cs"
 -langversion:9.0
 /deterministic
 /optimize-

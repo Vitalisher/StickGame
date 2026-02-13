@@ -391,6 +391,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/Player/MobileInputController.cs"
 "Assets/Player/RobloxStyleController.cs"
+"Assets/Player/SetParentOnStart.cs"
 "Assets/Player/SkinSystem.cs"
 "Assets/PluginYourGames/Modules/Authorization/Example/Scripts/GetPlayerData.cs"
 "Assets/PluginYourGames/Modules/Authorization/Scripts/Auth_info.cs"

@@ -130,7 +130,6 @@
 -define:GameLabel_yg
 -define:InterstitialAdv_yg
 -define:Leaderboards_yg
--define:Localization_yg
 -define:Metrica_yg
 -define:OpenURL_yg
 -define:Payments_yg
@@ -143,6 +142,7 @@
 -define:StickyAdv_yg
 -define:Storage_yg
 -define:TV_yg
+-define:Localization_yg
 -define:MODULE_ANIMATION_EXISTS
 -define:MODULE_PHYSICS_EXISTS
 -define:MODULE_PHYSICS_2D_EXISTS

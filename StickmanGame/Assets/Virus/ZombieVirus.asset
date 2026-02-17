@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virusName: Zomba
   virusColor: {r: 0, g: 1, b: 0, a: 1}
-  infectedPrefab: {fileID: 208144226589678914, guid: 5c48b4d154320984a94fcc523a92e004, type: 3}
+  infectedPrefab: {fileID: 6898199876292420477, guid: 16ca137d17bb5d14c9dc8d03e1878dfc, type: 3}
   infectionDuration: 10

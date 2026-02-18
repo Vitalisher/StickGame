@@ -579,6 +579,7 @@
 "Assets/PluginYourGames/Scripts/Utils/JsonYG.cs"
 "Assets/PluginYourGames/Scripts/Utils/LocalStorage_yg.cs"
 "Assets/saves.cs"
+"Assets/SkinSwitcher.cs"
 "Assets/Ui/OpenClosePanel.cs"
 "Assets/Virus/SyringeGun.cs"
 "Assets/Virus/SyringeProjectile.cs"

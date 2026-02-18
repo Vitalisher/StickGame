@@ -338,9 +338,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
-  field of view: 60
+  field of view: 55
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1799,11 +1799,11 @@ MonoBehaviour:
   minVerticalAngle: -60
   maxVerticalAngle: 60
   cameraDistance: 8
-  cameraHeight: 2
-  animator: {fileID: 0}
+  cameraHeight: 2.5
+  animator: {fileID: 747025031}
   layerMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 200
   isCursorEnabled: 1
   charController: {fileID: 7281073403295109169}
   colider: {fileID: 0}

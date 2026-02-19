@@ -22,7 +22,7 @@ public class RobloxStyleController : MonoBehaviour
     public float cameraDistance = 8f;
     public float cameraHeight = 2f;
 
-    private CharacterController controller;
+    public CharacterController controller;
     public Animator animator;
     private Vector3 velocity;
     private float verticalRotation = 0f;
@@ -32,7 +32,6 @@ public class RobloxStyleController : MonoBehaviour
 
     public bool isCursorEnabled = true;
 
-    public CharacterController charController;
     public Collider colider;
     public Rigidbody rb;
     
@@ -107,19 +106,16 @@ public class RobloxStyleController : MonoBehaviour
     {
         if (controller.isGrounded)
         {
-            animator.SetBool("isGrounded", true);
             velocity.y = -2f;
 
             if (Input.GetButtonDown("Jump") || jumpRequested)
             {
                 velocity.y = jumpForce;
                 animator.SetTrigger("Jump");
-                animator.SetBool("isGrounded", false);
                 jumpRequested = false; // Сбрасываем флаг
             }
         }
-        else
-            animator.SetBool("isGrounded", false);
+
     }
 
     public void Jump()
@@ -231,14 +227,14 @@ public class RobloxStyleController : MonoBehaviour
 
     public void PlayerDisabled()
     {
-        charController.enabled = false;
+        controller.enabled = false;
         rb.isKinematic = false;
         colider.enabled = true;
     }
 
     public void PlayerEnabled()
     {
-        charController.enabled = true;
+        controller.enabled = true;
         rb.isKinematic = true;
         colider.enabled = false;
     }
